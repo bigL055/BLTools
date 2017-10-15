@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "BLTools.podspec.h"
 
 FOUNDATION_EXPORT double BLToolsVersionNumber;
 FOUNDATION_EXPORT const unsigned char BLToolsVersionString[];
