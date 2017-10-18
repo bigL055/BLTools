@@ -15,6 +15,7 @@
 		4BB9F9E06DC056D88B37AAD2D879D8AF /* Pods-BLTools_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DB0F357556D076FE128ED5A23FD08C2 /* Pods-BLTools_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B2AC4FF332B447ABA3BB10A739E9143 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		8DE3880A02DC8B41660D650E684978FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		9D3B17901F97048900B115E3 /* Algorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3B178F1F97048900B115E3 /* Algorithm.swift */; };
 		A3D940BC87DBF004A1A50188D369A98C /* BLTools.h in Headers */ = {isa = PBXBuildFile; fileRef = B3565DBCB8D9D516A44C76C41EB64EFD /* BLTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A7FCCC358314E4A36635EF67A019872D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
 		AB20FA5FFCDA8AF04D59B019A0EDB79E /* Gcd.swift in Sources */ = {isa = PBXBuildFile; fileRef = B862A78030D2710CF0B5777FE135734D /* Gcd.swift */; };
@@ -53,6 +54,7 @@
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9806FB3883D49D547D25F7C7901E64DE /* BLTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BLTools-dummy.m"; sourceTree = "<group>"; };
 		9B07DFF75D8A4FE9DCD310DF62E9A8BA /* Pods-BLTools_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BLTools_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9D3B178F1F97048900B115E3 /* Algorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Algorithm.swift; path = Sources/Algorithm.swift; sourceTree = "<group>"; };
 		A54E427A6BEB7A7C1F53241A7A81C37F /* Pods-BLTools_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BLTools_Example.modulemap"; sourceTree = "<group>"; };
 		A57C87F7BCA05A18FF488F0292316D39 /* Pods-BLTools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BLTools_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		AC064A08652344E8CECA2070FEBF7D0C /* Pods-BLTools_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BLTools_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -197,6 +199,7 @@
 			children = (
 				B3565DBCB8D9D516A44C76C41EB64EFD /* BLTools.h */,
 				B862A78030D2710CF0B5777FE135734D /* Gcd.swift */,
+				9D3B178F1F97048900B115E3 /* Algorithm.swift */,
 				4948125B58B40A86D6B14C4E06D21BB7 /* Support Files */,
 			);
 			name = BLTools;
@@ -331,6 +334,7 @@
 			files = (
 				EB2470E691BC7DFDC4D4BF721A902C28 /* BLTools-dummy.m in Sources */,
 				AB20FA5FFCDA8AF04D59B019A0EDB79E /* Gcd.swift in Sources */,
+				9D3B17901F97048900B115E3 /* Algorithm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
