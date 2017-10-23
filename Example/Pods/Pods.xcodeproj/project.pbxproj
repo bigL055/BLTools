@@ -8,18 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		033DE47BC5B8183868501CEB5B278D1A /* Pods-BLTools_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E5090FB1B88F8B87543D65BEEFD998 /* Pods-BLTools_Example-dummy.m */; };
+		1FF7B015D63576271D8FE31F043BB88C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		2664E088B4F842D45F64ADAB7348898E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		28E1AC0434320DEBD3BD98F24309224D /* Pods-BLTools_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 45140AF44EBDEEBD77CA8AD81332B024 /* Pods-BLTools_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		306F11B180388E98C591A7E48755D6ED /* BLTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C30F425300CCE2E9D706D1578408DA7 /* BLTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C423AB234EC01064261A3B43E54AA14 /* Gcd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AEBD846F35A6FCA5597891F2EF606A /* Gcd.swift */; };
 		3A2647B48092674271836B9A2B706E19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		3E8A4BF65E8D40BED1504EAAB3DB95C4 /* Pods-BLTools_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFB3F59D38599CDCCDE5317E6DB3E73 /* Pods-BLTools_Tests-dummy.m */; };
+		3EA3E3F61F5E486AA9C7F51F3CF770C4 /* BLTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA395072B39377138CF0439AFC862BCE /* BLTools-dummy.m */; };
 		4BB9F9E06DC056D88B37AAD2D879D8AF /* Pods-BLTools_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DB0F357556D076FE128ED5A23FD08C2 /* Pods-BLTools_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8B2AC4FF332B447ABA3BB10A739E9143 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		7FA6C2DDC829B566468D4494EFE84578 /* BLTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7639D9D96F8F6FC48CC915FA3AEE69EC /* BLTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8DE3880A02DC8B41660D650E684978FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		9D3B17901F97048900B115E3 /* Algorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3B178F1F97048900B115E3 /* Algorithm.swift */; };
-		A3D940BC87DBF004A1A50188D369A98C /* BLTools.h in Headers */ = {isa = PBXBuildFile; fileRef = B3565DBCB8D9D516A44C76C41EB64EFD /* BLTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A7FCCC358314E4A36635EF67A019872D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
-		AB20FA5FFCDA8AF04D59B019A0EDB79E /* Gcd.swift in Sources */ = {isa = PBXBuildFile; fileRef = B862A78030D2710CF0B5777FE135734D /* Gcd.swift */; };
-		EB2470E691BC7DFDC4D4BF721A902C28 /* BLTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9806FB3883D49D547D25F7C7901E64DE /* BLTools-dummy.m */; };
+		9E42F1567581C94DD6A232EA30C21451 /* BLTools.h in Headers */ = {isa = PBXBuildFile; fileRef = E51C4671B49E8EAD886568281CD8D1D6 /* BLTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6C99523E4AB841FD1BE21B3F18F537F /* Algorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0659BE085E52D43E610651B2E1FD863E /* Algorithm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,7 +27,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E9DC5FBB0135C6571E266D09DF981A9E;
+			remoteGlobalIDString = 95D1C5A6A04FC8BE20957996546355C5;
 			remoteInfo = BLTools;
 		};
 /* End PBXContainerItemProxy section */
@@ -36,37 +36,37 @@
 		003FDF045808F88B736537E376E1FBB0 /* Pods-BLTools_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BLTools_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		01E5090FB1B88F8B87543D65BEEFD998 /* Pods-BLTools_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BLTools_Example-dummy.m"; sourceTree = "<group>"; };
 		027758905CFDD3BD1A2217227304AAF0 /* Pods-BLTools_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BLTools_Example-resources.sh"; sourceTree = "<group>"; };
-		05B78C91F5F47E669F5FDB38D360C571 /* BLTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = BLTools.modulemap; sourceTree = "<group>"; };
+		0659BE085E52D43E610651B2E1FD863E /* Algorithm.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Algorithm.swift; path = Sources/Algorithm.swift; sourceTree = "<group>"; };
 		090A38B2EA5486252F2D9414F68F2DD8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A9D7B22412923D26E111BB5B0509749 /* Pods-BLTools_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BLTools_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		101EEF00063F7A7824ED2F128E55EA1A /* Pods-BLTools_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BLTools_Example-frameworks.sh"; sourceTree = "<group>"; };
 		1C1CCB54FA385E22A6B34594E66CBFD8 /* Pods-BLTools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BLTools_Example.release.xcconfig"; sourceTree = "<group>"; };
-		364C86AB807ABCA6A221C2D24A1F7412 /* BLTools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BLTools.xcconfig; sourceTree = "<group>"; };
 		45140AF44EBDEEBD77CA8AD81332B024 /* Pods-BLTools_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BLTools_Example-umbrella.h"; sourceTree = "<group>"; };
 		47DCAC5FA2A8847B8DAD3CD750593FAE /* Pods-BLTools_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BLTools_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4CFB3F59D38599CDCCDE5317E6DB3E73 /* Pods-BLTools_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BLTools_Tests-dummy.m"; sourceTree = "<group>"; };
-		5E47ABB4036825A3DDC0094241DC7CBE /* BLTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BLTools-prefix.pch"; sourceTree = "<group>"; };
+		55AEBD846F35A6FCA5597891F2EF606A /* Gcd.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Gcd.swift; path = Sources/Gcd.swift; sourceTree = "<group>"; };
+		5671BA12C7E726C0730A2B3657F6B5D3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62212463114EC75482051FABF2FCB697 /* Pods_BLTools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BLTools_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C8F9516AED6EC2FB83DA3A5802CA702 /* Pods-BLTools_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BLTools_Tests-resources.sh"; sourceTree = "<group>"; };
+		7639D9D96F8F6FC48CC915FA3AEE69EC /* BLTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BLTools-umbrella.h"; sourceTree = "<group>"; };
 		76CA0B170DD817C6C08F153BB39FA1B0 /* Pods-BLTools_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BLTools_Tests.modulemap"; sourceTree = "<group>"; };
+		7BAF46C4BDE18AACF5255CBA46290568 /* BLTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = BLTools.modulemap; sourceTree = "<group>"; };
 		7DB0F357556D076FE128ED5A23FD08C2 /* Pods-BLTools_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BLTools_Tests-umbrella.h"; sourceTree = "<group>"; };
-		8C30F425300CCE2E9D706D1578408DA7 /* BLTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BLTools-umbrella.h"; sourceTree = "<group>"; };
+		881B5B4A9ABAEF0613966D5B7AADB644 /* BLTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BLTools-prefix.pch"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9806FB3883D49D547D25F7C7901E64DE /* BLTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BLTools-dummy.m"; sourceTree = "<group>"; };
 		9B07DFF75D8A4FE9DCD310DF62E9A8BA /* Pods-BLTools_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BLTools_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9D3B178F1F97048900B115E3 /* Algorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Algorithm.swift; path = Sources/Algorithm.swift; sourceTree = "<group>"; };
+		A38CFDEEA67A83409998003AC87C9E78 /* BLTools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BLTools.xcconfig; sourceTree = "<group>"; };
 		A54E427A6BEB7A7C1F53241A7A81C37F /* Pods-BLTools_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BLTools_Example.modulemap"; sourceTree = "<group>"; };
 		A57C87F7BCA05A18FF488F0292316D39 /* Pods-BLTools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BLTools_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		AC064A08652344E8CECA2070FEBF7D0C /* Pods-BLTools_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BLTools_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B3565DBCB8D9D516A44C76C41EB64EFD /* BLTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BLTools.h; path = Sources/BLTools.h; sourceTree = "<group>"; };
-		B43174C6A8262ACBB96A4860454F6ADB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		B862A78030D2710CF0B5777FE135734D /* Gcd.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Gcd.swift; path = Sources/Gcd.swift; sourceTree = "<group>"; };
 		BB4AE399A7DB0DAC9F24239476F715C9 /* Pods-BLTools_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BLTools_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BE26D5296ED5454A9F4B541460F1F7E8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C45CC47B5C85C1DB822F853E82115BA2 /* Pods-BLTools_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BLTools_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DA395072B39377138CF0439AFC862BCE /* BLTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BLTools-dummy.m"; sourceTree = "<group>"; };
 		E3B89299D5CC724DDB9C2B12959C5D4C /* BLTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BLTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E51C4671B49E8EAD886568281CD8D1D6 /* BLTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BLTools.h; path = Sources/BLTools.h; sourceTree = "<group>"; };
 		E94726B6D7073B103F2095DDA5417EC0 /* Pods_BLTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BLTools_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -79,12 +79,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		459D2CFE432A33C8DEA4CC7DB74B8886 /* Frameworks */ = {
+		625EBA19E8331EEF4592420FF737A15F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B2AC4FF332B447ABA3BB10A739E9143 /* Foundation.framework in Frameworks */,
-				A7FCCC358314E4A36635EF67A019872D /* UIKit.framework in Frameworks */,
+				2664E088B4F842D45F64ADAB7348898E /* Foundation.framework in Frameworks */,
+				1FF7B015D63576271D8FE31F043BB88C /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,6 +126,18 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		37C552AA0C0C47905C4CB8F097A094DD /* BLTools */ = {
+			isa = PBXGroup;
+			children = (
+				0659BE085E52D43E610651B2E1FD863E /* Algorithm.swift */,
+				E51C4671B49E8EAD886568281CD8D1D6 /* BLTools.h */,
+				55AEBD846F35A6FCA5597891F2EF606A /* Gcd.swift */,
+				92E66CECB8358725E1C8CB05123DF0EF /* Support Files */,
+			);
+			name = BLTools;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -143,24 +155,10 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		4948125B58B40A86D6B14C4E06D21BB7 /* Support Files */ = {
+		70A4BD133076154DCDF1CA946732D4C5 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				05B78C91F5F47E669F5FDB38D360C571 /* BLTools.modulemap */,
-				364C86AB807ABCA6A221C2D24A1F7412 /* BLTools.xcconfig */,
-				9806FB3883D49D547D25F7C7901E64DE /* BLTools-dummy.m */,
-				5E47ABB4036825A3DDC0094241DC7CBE /* BLTools-prefix.pch */,
-				8C30F425300CCE2E9D706D1578408DA7 /* BLTools-umbrella.h */,
-				B43174C6A8262ACBB96A4860454F6ADB /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/BLTools";
-			sourceTree = "<group>";
-		};
-		721C53489D13FEBA3FBBF42EC828E13A /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B46437170E2D0469E21FA01B929E483C /* BLTools */,
+				37C552AA0C0C47905C4CB8F097A094DD /* BLTools */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -169,7 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				721C53489D13FEBA3FBBF42EC828E13A /* Development Pods */,
+				70A4BD133076154DCDF1CA946732D4C5 /* Development Pods */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				BB21B88FB9B545A74E939D6EF8A5DF79 /* Products */,
 				2591BA639373C79A00FD9671189BC377 /* Targets Support Files */,
@@ -194,16 +192,18 @@
 			path = "Target Support Files/Pods-BLTools_Example";
 			sourceTree = "<group>";
 		};
-		B46437170E2D0469E21FA01B929E483C /* BLTools */ = {
+		92E66CECB8358725E1C8CB05123DF0EF /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B3565DBCB8D9D516A44C76C41EB64EFD /* BLTools.h */,
-				B862A78030D2710CF0B5777FE135734D /* Gcd.swift */,
-				9D3B178F1F97048900B115E3 /* Algorithm.swift */,
-				4948125B58B40A86D6B14C4E06D21BB7 /* Support Files */,
+				7BAF46C4BDE18AACF5255CBA46290568 /* BLTools.modulemap */,
+				A38CFDEEA67A83409998003AC87C9E78 /* BLTools.xcconfig */,
+				DA395072B39377138CF0439AFC862BCE /* BLTools-dummy.m */,
+				881B5B4A9ABAEF0613966D5B7AADB644 /* BLTools-prefix.pch */,
+				7639D9D96F8F6FC48CC915FA3AEE69EC /* BLTools-umbrella.h */,
+				5671BA12C7E726C0730A2B3657F6B5D3 /* Info.plist */,
 			);
-			name = BLTools;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BLTools";
 			sourceTree = "<group>";
 		};
 		BB21B88FB9B545A74E939D6EF8A5DF79 /* Products */ = {
@@ -227,20 +227,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		41CD27318E25CC3299E76FD7FBD4CEE8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FA6C2DDC829B566468D4494EFE84578 /* BLTools-umbrella.h in Headers */,
+				9E42F1567581C94DD6A232EA30C21451 /* BLTools.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		490A975DF34D437C037E34E0B0D18E27 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				28E1AC0434320DEBD3BD98F24309224D /* Pods-BLTools_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AE455D8800DF968DAF824CA9CBD01929 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				306F11B180388E98C591A7E48755D6ED /* BLTools-umbrella.h in Headers */,
-				A3D940BC87DBF004A1A50188D369A98C /* BLTools.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,13 +265,13 @@
 			productReference = 62212463114EC75482051FABF2FCB697 /* Pods_BLTools_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E9DC5FBB0135C6571E266D09DF981A9E /* BLTools */ = {
+		95D1C5A6A04FC8BE20957996546355C5 /* BLTools */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 089EF0E06764C2BC1ADF8034C8B855B2 /* Build configuration list for PBXNativeTarget "BLTools" */;
+			buildConfigurationList = C877839F4F416FDAC4730B5918E06020 /* Build configuration list for PBXNativeTarget "BLTools" */;
 			buildPhases = (
-				3C16BA050141E3A085345D71CE07B615 /* Sources */,
-				459D2CFE432A33C8DEA4CC7DB74B8886 /* Frameworks */,
-				AE455D8800DF968DAF824CA9CBD01929 /* Headers */,
+				0424F30C5381EBE8EC20616B6AE0AA79 /* Sources */,
+				625EBA19E8331EEF4592420FF737A15F /* Frameworks */,
+				41CD27318E25CC3299E76FD7FBD4CEE8 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -306,7 +306,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0900;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -320,7 +320,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E9DC5FBB0135C6571E266D09DF981A9E /* BLTools */,
+				95D1C5A6A04FC8BE20957996546355C5 /* BLTools */,
 				6407CDD8A666D4DC19FF67F16B27EDFC /* Pods-BLTools_Example */,
 				F6B9C5290CE14D537E349D6923A7FDDF /* Pods-BLTools_Tests */,
 			);
@@ -328,13 +328,13 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3C16BA050141E3A085345D71CE07B615 /* Sources */ = {
+		0424F30C5381EBE8EC20616B6AE0AA79 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB2470E691BC7DFDC4D4BF721A902C28 /* BLTools-dummy.m in Sources */,
-				AB20FA5FFCDA8AF04D59B019A0EDB79E /* Gcd.swift in Sources */,
-				9D3B17901F97048900B115E3 /* Algorithm.swift in Sources */,
+				B6C99523E4AB841FD1BE21B3F18F537F /* Algorithm.swift in Sources */,
+				3EA3E3F61F5E486AA9C7F51F3CF770C4 /* BLTools-dummy.m in Sources */,
+				2C423AB234EC01064261A3B43E54AA14 /* Gcd.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,7 +360,7 @@
 		F8E73AEF2F2D2C505F5AC682ED559893 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BLTools;
-			target = E9DC5FBB0135C6571E266D09DF981A9E /* BLTools */;
+			target = 95D1C5A6A04FC8BE20957996546355C5 /* BLTools */;
 			targetProxy = 9EEA54CC798B498F347DDE408416C315 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -426,6 +426,38 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		22AD3188D8565BF510DB41C8F7D13559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A38CFDEEA67A83409998003AC87C9E78 /* BLTools.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BLTools/BLTools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BLTools/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BLTools/BLTools.modulemap";
+				PRODUCT_NAME = BLTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -544,39 +576,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		8A5253A61711A8BD9B2CADB53A556F1E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 364C86AB807ABCA6A221C2D24A1F7412 /* BLTools.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BLTools/BLTools-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BLTools/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BLTools/BLTools.modulemap";
-				PRODUCT_NAME = BLTools;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
@@ -608,37 +609,6 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		9E853A388FEE986536067329A36BA90D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 364C86AB807ABCA6A221C2D24A1F7412 /* BLTools.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BLTools/BLTools-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BLTools/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BLTools/BLTools.modulemap";
-				PRODUCT_NAME = BLTools;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -677,6 +647,37 @@
 			};
 			name = Debug;
 		};
+		F279604F1CB588AB9C855C7BA5294415 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A38CFDEEA67A83409998003AC87C9E78 /* BLTools.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BLTools/BLTools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BLTools/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BLTools/BLTools.modulemap";
+				PRODUCT_NAME = BLTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -689,20 +690,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		089EF0E06764C2BC1ADF8034C8B855B2 /* Build configuration list for PBXNativeTarget "BLTools" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9E853A388FEE986536067329A36BA90D /* Debug */,
-				8A5253A61711A8BD9B2CADB53A556F1E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
 				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C877839F4F416FDAC4730B5918E06020 /* Build configuration list for PBXNativeTarget "BLTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F279604F1CB588AB9C855C7BA5294415 /* Debug */,
+				22AD3188D8565BF510DB41C8F7D13559 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
