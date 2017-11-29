@@ -36,9 +36,9 @@ public struct Gcd {
   ///   - leeway: 精度, 默认 0.1
   ///   - event: 定时事件
   public static func `repeat`(interval: Double,
-                             keep: Double = 0.0,
-                             leeway: Double = 0.1,
-                             event: @escaping ((_ timer: DispatchSourceTimer)->())) {
+                              keep: Double = 0.0,
+                              leeway: Double = 0.1,
+                              event: @escaping ((_ timer: DispatchSourceTimer)->())) {
     let intervalTime = DispatchTimeInterval.milliseconds(Int(interval * 1000))
     let leewayTime = DispatchTimeInterval.milliseconds(Int(leeway * 1000))
 
@@ -52,7 +52,7 @@ public struct Gcd {
 
     timer.schedule(deadline: .now(),
                    repeating: intervalTime,
-                            leeway: leewayTime)
+                   leeway: leewayTime)
 
     timer.setEventHandler {
       DispatchQueue.main.async { event(timer) }

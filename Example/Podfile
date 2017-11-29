@@ -5,6 +5,7 @@ target 'BLTools_Example' do
 
   target 'BLTools_Tests' do
     inherit! :search_paths
+    pod 'BLTools', :path => '../'
 
     
   end

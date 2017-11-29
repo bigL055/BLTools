@@ -1,11 +1,11 @@
 //
 //  Math.swift
-//  BLTools
+//  Pods
 //
-//  Created by bigl on 2017/10/18.
+//  Created by BigL on 2017/7/24.
 //
 
-import UIKit
+import Foundation
 
 struct Algorithm {
 

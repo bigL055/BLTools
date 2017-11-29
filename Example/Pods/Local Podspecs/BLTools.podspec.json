@@ -29,6 +29,14 @@
     "UIKit"
   ],
   "requires_arc": true,
+  "dependencies": {
+    "YYCache": [
+
+    ],
+    "AnyFormatProtocol": [
+
+    ]
+  },
   "pod_target_xcconfig": {
     "SWIFT_VERSION": "4.0"
   }

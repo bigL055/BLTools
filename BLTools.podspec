@@ -16,6 +16,8 @@ s.source_files = ["Sources/*/**","Sources/*/*/**","Sources/**"]
 s.public_header_files = ["Sources/BLTools.h"]
 s.frameworks = ['UIKit']
 s.requires_arc = true
+s.dependency 'YYCache'
+s.dependency 'AnyFormatProtocol'
 s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
 
 end

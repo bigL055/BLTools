@@ -1,5 +1,9 @@
 PODS:
-  - BLTools (0.1.0)
+  - AnyFormatProtocol (0.3.0)
+  - BLTools (0.1.0):
+    - AnyFormatProtocol
+    - YYCache
+  - YYCache (1.0.4)
 
 DEPENDENCIES:
   - BLTools (from `../`)
@@ -9,8 +13,10 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  BLTools: 1fbe0e1199fe5622b4cf6896c48e3813e4f35fae
+  AnyFormatProtocol: 7f32c6ca2a06e625e405cbba0696f82f10aa6973
+  BLTools: b521778c50eb09664cf1631e10d15fd0a141b856
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
 
-PODFILE CHECKSUM: 60e8534b25eff52fbf45268c3efa4477865034e2
+PODFILE CHECKSUM: ef23caeb7dc912492ddf9e94e88ed40f68dcbe63
 
 COCOAPODS: 1.3.1
