@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
 s.name             = 'BLTools'
-s.version          = '0.1.0'
+s.version          = '0.2.0'
 s.summary          = '一些小工具类'
 
 
-s.homepage         = 'https://github.com/bigL055/Routable'
+s.homepage         = 'https://github.com/bigL055/BLTools'
 s.license          = { :type => 'MIT', :file => 'LICENSE' }
 s.author           = { 'lin' => 'linhan.bigl055@outlook.com' }
 s.source = { :git => 'https://github.com/bigL055/BLTools.git', :tag => s.version.to_s }
