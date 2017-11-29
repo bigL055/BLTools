@@ -14,7 +14,7 @@ s.ios.deployment_target = '8.0'
 s.source_files = ["Sources/*/**","Sources/*/*/**","Sources/**"]
 
 s.public_header_files = ["Sources/BLTools.h"]
-s.frameworks = ['UIKit']
+s.frameworks = ['Foundation']
 s.requires_arc = true
 s.dependency 'YYCache'
 s.dependency 'AnyFormatProtocol'
